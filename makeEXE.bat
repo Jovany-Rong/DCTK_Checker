@@ -5,7 +5,7 @@ del *.spec
 rd /s /q build 
 rd /s /q dist
 
-pyinstaller -F -c -i "DCTK_Check.ico" "DCTK_Check.py" --key 1987623450975681
+pyinstaller -F -c -i "DCTK_Check.ico" "DCTK_Check.py"
 
 xcopy config.ini dist\
 
